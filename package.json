@@ -1,0 +1,37 @@
+{
+  "name":           "goatse",
+  "version":        "0.0.2",
+  "description":    "Command line util similar to cowsay but with text inside a widely extended goatse anus",
+  "homepage":       "https://github.com/devlato/goatse-npm",
+  "readme":         "Command line util similar to cowsay but with text inside a widely extended goatse anus",
+  "readmeFilename": "README.md",
+  "licence":        "MIT",
+  "preferGlobal":   true,
+  "bin": {
+    "goatse": "bin/goatse.js",
+    "main":   "lib/index.js"
+  },
+  "repository": {
+    "type":   "git",
+    "url":    "https://github.com/devlato/goatse-npm"
+  },
+  "author": {
+    "name":   "devlato",
+    "email":  "npm@devlato.com"
+  },
+  "dependencies": {
+    "lodash": ">= 3.3.1"
+  },
+  "devDependencies": {
+    "lodash": ">= 3.3.1"
+  },
+  "peerDependencies": {
+    "lodash": ">= 3.3.1"
+  },
+  "bugs": {
+    "url":    "https://github.com/devlato/goatse-npm/issues"
+  },
+  "engines": {
+    "node":   ">= 0.12.0"
+  }
+}
