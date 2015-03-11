@@ -1,11 +1,12 @@
 {
   "name":           "goatse",
-  "version":        "0.0.5",
+  "version":        "0.0.6",
   "description":    "Command line util similar to cowsay but with text inside a widely extended goatse anus",
   "homepage":       "https://github.com/devlato/goatse-npm",
   "readme":         "Command line util similar to cowsay but with text inside a widely extended goatse anus",
   "readmeFilename": "README.md",
   "licence":        "MIT",
+  "keywords":       ["goatse", "cowsay", "cow", "musthave", "useful", "utils"],
   "preferGlobal":   true,
   "bin": {
     "goatse": "bin/goatse.js",
