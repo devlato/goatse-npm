@@ -12,7 +12,7 @@ npm install -g goatse
 
 ## USAGE
 ```sh
-some text
+goatse some text
 ```
 
 
@@ -38,11 +38,9 @@ goatse       = goatseWriter.render({
     args: mergedArgs
 }); 
 console.log(goatse);
-
 ```
 
 
 ## TODO 
 1. Text inside goatse anus with anus width auto-change
 2. Text inside goatse anus with full image scaling
->>>>>>> + basic functionality
