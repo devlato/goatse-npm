@@ -27,16 +27,19 @@ var GoatseWriter,
 GoatseWriter = require('../lib'); 
 
 
-mergedArgs = (process.argv.slice(2) || [])
-        .map(function(item) {
-            return item.replace(/[\n\s]/ig, ''); 
-        })
-        .join(' '); 
+mergedArgs = 'hello'; 
+if (process.argv.length > 2) {
+	mergedArgs = 
+		process.argv.slice(2)
+	        .map(function(item) {
+	            return item.replace(/[\n\s]/ig, ''); 
+	        })
+	        .join(' '); 
+}
 
 goatseWriter = new GoatseWriter(); 
-goatse       = goatseWriter.render({
-    args: mergedArgs
-}); 
+goatse       = goatseWriter.render(mergedArgs); 
+
 console.log(goatse);
 ```
 
