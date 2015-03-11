@@ -1,6 +1,6 @@
 {
   "name":           "goatse",
-  "version":        "0.0.7",
+  "version":        "0.0.8",
   "description":    "Command line util similar to cowsay but with text inside a widely extended goatse anus",
   "homepage":       "https://github.com/devlato/goatse-npm",
   "readme":         "Command line util similar to cowsay but with text inside a widely extended goatse anus",
