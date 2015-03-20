@@ -43,6 +43,19 @@ goatse       = goatseWriter.render(mergedArgs);
 console.log(goatse);
 ```
 
+GoatseWriter class has some options too: 
+```javascript
+var goatseWriter = new GoatseWriter({
+    template:      'goatse.ejs',               // Goatse template file name
+    rootPath:      __dirname,                  // Folder where module is stored, defaults to something like __dirname
+    templatesPath: __dirname + './templates',  // Default templates folder 
+    ioOptions: {                               // Options for file I/O
+        encoding: 'utf8',
+        flag:     'r'
+    }
+});
+```
+
 
 ## TODO 
 1. Text inside goatse anus with anus width auto-change
