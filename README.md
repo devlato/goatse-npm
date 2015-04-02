@@ -24,7 +24,7 @@ var GoatseWriter,
     mergedArgs; 
 
 
-GoatseWriter = require('../lib'); 
+GoatseWriter = require('goatse'); 
 
 
 mergedArgs = 'hello'; 
