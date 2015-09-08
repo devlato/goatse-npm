@@ -12,7 +12,32 @@ npm install -g goatse
 
 ## USAGE
 ```sh
-goatse some text
+devlato@devlato-pc:~$ goatse hello
+* g o a t s e x * g o a t s e x * g o a t s e x *
+g                                               g  
+o /     \             \            /    \       o
+a|       |             \          |      |      a
+t|       `.             |         |       :     t
+s`        |             |        \|       |     s
+e \       | /       /  \\\   --__ \\       :    e
+x  \      \/   _--~~          ~--__| \     |    x  
+*   \      \_-~                    ~-_\    |    *
+g    \_     \        _.--------.______\|   |    g
+o      \     \______// _ ___ _ (_(__>  \   |    o
+a       \   .  C ___)  ______ (_(____>  |  /    a
+t       /\ |   C ____)/      \ (_____>  |_/     t
+s      / /\|   C_____) hello |  (___>   /  \    s
+e     |   (   _C_____)\______/  // _/ /     \   e
+x     |    \  |__   \\_________// (__/       |  x
+*    | \    \____)   `----   --'             |  *
+g    |  \_          ___\       /_          _/ | g
+o   |              /    |     |  \            | o
+a   |             |    /       \  \           | a
+t   |          / /    |         |  \           |t
+s   |         / /      \__/\___/    |          |s
+e  |           /        |    |       |         |e
+x  |          |         |    |       |         |x
+* g o a t s e x * g o a t s e x * g o a t s e x *
 ```
 
 
